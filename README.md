@@ -1,66 +1,66 @@
-﻿# WoA Installer for Raspberry Pi 3
+﻿# WoA Installer per Raspberry Pi 3
 
-The application to install Full Windows 10 into your Raspberry Pi!
+L'applicazione per installare Windows 10 Full nel tuo Raspberry Pi!
 
 ![image](https://user-images.githubusercontent.com/3109851/43066047-e7134552-8e63-11e8-8ac7-895e601b60e3.png)
 
-# **Super easy to use. No-hassle.**
+# **Super semplice da usare. No-problemi.**
 
-Please keep reading carefully. All you need is here.
+Per piacere leggi attentamente. Tutto quello di cui hai bisogno è scritto qui.
 
-# Requirements for WOA
+# Requisiti per WOA
 - Raspberry Pi 3 Model B (or B+)
-- MicroSD card. Recommended with A1 rating.
-- A Windows 10 ARM64 Image (.wim). Please, check [this link](https://github.com/WOA-Project/guides/blob/master/GettingWOA.md) to get it.
+- MicroSD card. Raccomandata con rateo A1.
+- A Windows 10 ARM64 Image (.wim). Per piacere, vai qui [this link](https://github.com/WOA-Project/guides/blob/master/GettingWOA.md) per scaricarlo.
 
-## Requirements for running this application
-- A recent version of Windows 10 (please, use the latest to ensure it'll run correctly, don't open issues otherwise)
-- .NET Framework 4.6.1 (should come included in recent versions of Windows 10)
+## Requisiti per eseguire l'applicazione
+- Una versione recente di Windows 10 (per piacere, assicurati di utilizzare l'ultima versione, altrimenti non aprire problemi).
+.NET Framework 4.6.1 (dovrebbe essere incluso nella recente versione di Windows 10)
 
-# About Core Packages
-Please, notice the WoA Installer is only a tool with helps you with the deployment. WoA Installer needs a set of binaries, AKA the **Core Package**, to do its job. **These binaries are not not mine** and are bundled and offered just for convenience to make your life easier, since this tool is focused on simplicity. 
+# Informazioni Core Packages
+Per piacere, si fa notare che l'installer WoA è solo un tool che ti aiuta nello sviluppo. WoA Installer ha bisogno di alcuni file binaries, AKA i **Core Package**, per fare il suo lavoro. **questi binaries non sono miei** sono in bundle e offerti solo per convenienza per renderti la vita più semplice, infatti questo tool è orientato alla semplicità. 
 
-Find them below.
+Li trovate qui sotto.
 
 # Downloads
 
 ## 1. WoA Installer
 
-Download the **[latest version](https://github.com/SuperJMN/WoA-Installer/releases/download/v1.2/WoA.Installer.for.Raspberry.Pi.zip)** 
+Scarica l'ultima versione **[ultima versione](https://github.com/SuperJMN/WoA-Installer/releases/download/v1.2/WoA.Installer.for.Raspberry.Pi.zip)** 
 
 ## 2. Core Package
 
-Download it from **[here](https://1drv.ms/f/s!AtXoQFW327DIyMxxCDU_uUM6o6dn2A)**.
+Scaricalo da **[qui](https://1drv.ms/f/s!AtXoQFW327DIyMxxCDU_uUM6o6dn2A)**.
 
-## Installing the Core Package
-Run WoA Installer and go to the **Advanced** section. Click on `[Import Core Package]` and select the package directly. Don't attempt to uncompress it. After the import operation, you will be able to use deploy Windows.
+## 3. Installare i Core Package
+Avvia l'installer di WoA e vai sulla sezione **Advanced**. Clicca su `[Import Core Package]` e seleziona direttamente il pacchetto. Non decomprimeteli (Non eseguire l'unzip). Dopo quest'importante operazione, sarai in grado di distribuire Windows.
 
-# Donations are welcome!
+# Le donazioni sono ben accette!
 
-If you find this useful, feel free to [buy me a coffee ☕](http://paypal.me/superjmn). Thanks in advance!!
+Se lo trovi utile, sentiti utile di [offrirmi un caffè ☕](http://paypal.me/superjmn). Grazie in anticipo!!
 
-## Donate to the contributors of this project
-Please, don't forget that the RaspberryPi WOA Project is supported by other individuals and companies (see the [credits and acknowledgements section](#credits-and-acknowledgements
+## Donate ai contributori del progetto
+Per piacere, non dimenticatevi the il progetto WOA per Raspberry Pi è supportato da utenti privati e aziende (guarda la [sezione dei crediti e riconoscimenti](#credits-and-acknowledgements
 )).
- - Donate to [MCCI](https://mcci.com/). Why? [Read this 🗒](Docs/mcci_donate.md) 
+ - Dona a [MCCI](https://mcci.com/). Perchè? [Leggi questo 🗒](Docs/mcci_donate.md) 
 
-# Need help?
-Then visit our projects website at https://pi64.win, the one-stop solution for all your questions 😊
+# Bisogno di aiuto?
+Allora visita il sito riguardo i nostri progetti a https://pi64.win, per una soluzione one-stop per tutte le tue domande 😊
 
-It's also recommended that you read the [FAQ 📘](https://pi64.win/)
+Ti raccomandiamo anche di rellegere le [FAQ 📘](https://pi64.win/)
 
-# Credits and Acknowledgements
+# Crediti e Riconoscimenti
 
-This WoA Installer is possible because the great community behind it. I would like to thank the brilliant minds behind this technical wonder. If you think you should be listed, please, contact me using the e-mail address on my profile.
+WoA Installer è possibile grazie alla bella community dietro ad esso. Vorrei ringraziare le brillanti menti dietro questa meraviglia tecnica. Se pensi di essere aggiunto alla lista, per piacere, contattami usando l'indirizzo email he trovi nel mio profilo.
 
-- [Andrei Warkentin](https://github.com/andreiw) for the **64-bit Pi UEFI**, UEFI Pi (HDMI, USB, SD/MMC) drivers, improved ATF and Windows boot/runtime support.
-- [MCCI](https://mcci.com/) for their great contribution to the RaspberryPI WOA project:
-  - for porting their **TrueTask USB stack** to Windows 10 ARM64, and allowing non-commercial use with this project ([see license](Docs/mcci_license.md))
-  - for funding the site of the project http://pi64.win and the discourse site http://discourse.pi64.win
-  - Special thanks to Terry Moore for all the great support and commitment, and for setting up the online presence for the project and its insfrastructure.
-- Ard Bisheuvel for initial ATF and UEFI ports
-- [Googulator](https://github.com/Googulator) for his method to install WoA in the Raspberry Pi
-- Mario Bălănică for his [awesome tool](https://www.worproject.ml), and for tips and support :)
+- [Andrei Warkentin](https://github.com/andreiw) per il **64-bit Pi UEFI**, UEFI Pi (HDMI, USB, SD/MMC) drivers, miglioramento ATF e  supporto Windows boot/runtime.
+- [MCCI](https://mcci.com/) per il loro ottimo contributo per il RaspberryPI WoA Project:
+  - per aver portato il loro **TrueTask USB stack** in Windows 10 ARM64, e concesso un uso non commerciale a questo progetto. ([guarda la licenza](Docs/mcci_license.md))
+  - per aver finanziato il sito del progetto http://pi64.win e anche il sito del discorso http://discourse.pi64.win
+  - Un ringraziamento speciale a Terry Moore per tutto l'ottimo supporto e consilenza, e per aver configurato la presenza online del progetto e la sua infrastruttura.
+- Ard Bisheuvel per l' ATF iniziale e le porte UEFI
+- [Googulator](https://github.com/Googulator) per il suo metodo per installare WoA nel RaspberryPI
+- Mario Bălănică per il suo [fantastico tool](https://www.worproject.ml), e per i consigli e supporto :)
 	- daveb77
     - thchi12
     - falkor2k15
@@ -70,23 +70,23 @@ This WoA Installer is possible because the great community behind it. I would li
     - novaspirit
     - zlockard 
      
-    ...for everything from ACPI/driver work to installation procedures, testing and so on.
-- Microsoft for the 32-bit IoT firmware.
+    ...un grazie per aver testato tutti gli ACPI/driver e per le procedure di installazione.
+- Microsoft per il 32-bit IoT firmware.
 
-In addition to:
+In oltre un grazie anche a:
 
-- [Eric Zimmerman](https://github.com/EricZimmerman) for [The Registry Project](https://github.com/EricZimmerman/Registry)
+- [Eric Zimmerman](https://github.com/EricZimmerman) per aver [Registrato il progetto](https://github.com/EricZimmerman/Registry)
 - [Jan Karger](https://github.com/punker76) [MahApps.Metro](https://mahapps.com)
 - [ReactiveUI](https://reactiveui.net)
 - [Adam Hathcock](https://github.com/adamhathcock) for [SharpCompress](https://github.com/adamhathcock/sharpcompress)
 
-And our wonderful group at Telegram for their testing and support!
+E il nostro bellissimo gruppo su Telegram per i loro test e il supporto!
 - [RaspberryPiWOA](https://t.me/raspberrypiwoa)
 
-## Related projects
-These are the related projects. The Core Packages comes from them. Big thanks!
+## Progetti Relativi
+Questi sono altri progetti relativi al Raspberry. I Core Packages vengono da loro. Un Grande grazie!
 
 - [RaspberryPiPkg](https://github.com/andreiw/RaspberryPiPkg)
 - [Microsoft IoT-BSP](https://github.com/ms-iot/bsp)
 - [Raspberry Pi ATF](https://github.com/andreiw/raspberry-pi3-atf)
-- [WOR Project](https://www.worproject.ml) by [Mario Bălănică](https://github.com/mariobalanica)
+- [WOR Project](https://www.worproject.ml) da [Mario Bălănică](https://github.com/mariobalanica)
